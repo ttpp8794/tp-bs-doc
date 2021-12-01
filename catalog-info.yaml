@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tp-doc-test"
+  description: "this is a test doc"
+  annotations:
+    github.com/project-slug: ttpp8794/tp-bs-doc
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "tao.peng@ecolab.com"
